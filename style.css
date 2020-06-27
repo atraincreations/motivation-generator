@@ -1,0 +1,96 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+
+body {
+    height: 100vh;
+    background-color: #303030ee;
+    overflow: hidden;
+}
+
+.person {
+    width: auto;
+    margin-top: 8vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.quote-holder {
+    height: 100vh;
+    margin: 12vw;
+}
+
+.person-name {
+    color: white;
+    font-family: "Amatic SC";
+    font-size: 3rem;
+}
+
+.quote {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 45vh;
+    width: 100%;
+    font-size: 2rem;
+    
+}
+
+/* font classes */
+.amatic {
+    font-family: 'Amatic SC', cursive;
+}
+.notable {
+    font-family: 'Notable', sans-serif;
+}
+.condensed {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.piedra {
+    font-family: 'Piedra', cursive;
+}
+.shadows{
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.ad {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: right;
+}
+
+.name {
+    font-size: 10px;
+    font-family: "Amatic SC";
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+.name #watermark {
+    background-color: white;
+    padding: .5rem;
+    border-radius: 20px;
+    box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.5);
+}
+
+#watermark-link:active, #watermark-link:visited {
+    color: black;
+}
