@@ -1,18 +1,4 @@
 
-/*
-Random bg colors
-#2c3968 - Ford Blue
-#1a1f71 - Visa Blue
-#004792 - Lowes Blue
-#18453B - MSU Green
-#004953 - Eagles Midnight Green
-#00573F - Jets Gotham Green
-
-Random fonts
-
-Random quotes
-
-*/
 
 function styleOptionalBackground(){
     $("body").css("object-fit", "contain");
@@ -20,7 +6,6 @@ function styleOptionalBackground(){
     $("body").css("background-repeat", "no-repeat");
     $("body").css("background-size", "cover");
     $("body").css("background-position", "center");
-    //$("body, html").css("min-height", "100vh");
     $("body").css("-webkit-background-size", "cover");
     $("body").css("-moz-background-size", "cover");
     $("body").css("-o-background-size", "cover");
