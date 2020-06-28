@@ -65,6 +65,12 @@ a {
     text-decoration: none;
 }
 
+#tweet:link,
+#tweet:visited {
+    text-decoration: none;
+    color: black;
+}
+
 .ad {
     position: fixed;
     left: 0;
